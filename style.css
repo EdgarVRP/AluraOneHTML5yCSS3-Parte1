@@ -1,46 +1,86 @@
-.tituloPrincipal{
-    padding-left: 30px;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
-.tituloCentralizado{
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position:absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.productos{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display:  inline-block;
     text-align: center;
-    height: 150px;
-    border: 10px solid #000000;
-    padding: 20px;
-    margin: 40px;
-    margin: 40px;
-}
-p{
-    text-align: center;
-}
-
-em strong{
-    color: red;
-}
-#mision{
-    font-size: 28px;
-}
-#banner{
-    width: 100%;
-    height: 100%;
-}
-.principal{
-    background: #cccccc;
-    padding: 20 px;
-}
-.items{
-    font-style: italic;
-}
-ul{
-    display: inline-block;
+    
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.Diferenciales{
-    background: #ffffff;
-    padding: 30 px;
+.productos h2{
+    font-size: 26px;
+    font-weight: bold;
 }
-.imagenDiferenciales{
-    width: 50%;
+.productos li:hover h2{
+    font-size: 33px;
+}
+.descripcion{
+    font-size: 18px;
+}
+.descripcionPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: #c78c19; 
+    text-decoration: underline;
+}
 
+.productos li:hover{
+    border-color: #c78c19; 
+    text-decoration: underline;
+}
+.productos li:active{
+    border-color: red; 
+}
+footer{
+    padding: 40px;
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+}
+.Copyright{
+    color:white;
+    font-size: 13px;
+    margin:20px;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
 }
