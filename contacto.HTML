@@ -22,25 +22,71 @@
       </div>
     </header>
     <main>
-     <form>
+      <form>
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" class="input-padron" />
 
         <label for="apellido">Apellido</label>
-        <input type="text" id="apellido">
+        <input type="text" id="apellido" class="input-padron" />
 
         <label for="correo">Correo Electronico</label>
-        <input type="text" id="correo">
+        <input type="text" id="correo" class="input-padron" />
 
         <label for="telefono">Telefono</label>
-        <input type="text" id="telefono">
+        <input type="text" id="telefono" class="input-padron" />
 
-        <input type="submit" value="Enviar Formulario">
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje"></textarea>
 
-     </form>
+        <div>
+          <p class="test" id="test">Forma de contacto con usted</p>
+
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+
+          <label for="radio-telefono"
+            ><input
+              type="radio"
+              name="contacto"
+              value="Telefono"
+              id="radio-telefono"
+            />Telefono</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="whatsapp"
+              id="radio-whatsapp"
+            />Whatsapp</label
+          >
+        </div>
+        <div>
+          <p>En que horario desea ser atendido</p>
+          <select name="" id="">
+            <option value="Mañana">Mañana</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noche">Noche</option>
+          </select>
+        </div>
+
+        <label
+          ><input type="checkbox" class="checkbox" />Suscripcion a novedades de
+          la pagina</label
+        >
+
+        <input type="submit" value="Enviar Formulario" />
+      </form>
     </main>
     <footer>
-      <img src="imagenes/logo-blanco.png">
+      <img src="imagenes/logo-blanco.png" />
       <p class="Copyright">&copy Copyright Barberia...</p>
     </footer>
   </body>
